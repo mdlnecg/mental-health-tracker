@@ -10,7 +10,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.core import serializers
 from django.urls import reverse
 
-# Login
+# Login required
 @login_required(login_url='/login')
 
 def show_main(request):
